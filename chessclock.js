@@ -1,0 +1,1 @@
+alert("chessclock.js connected!!");
