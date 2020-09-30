@@ -1,7 +1,33 @@
 
 .time
 {
+	width: 200px;
+	height: 200px;
 	border: 2px solid black;
-	margin: 10px;
-	padding: 5px;
+	padding: 80px 70px;
 }
+
+
+
+.block
+{
+	float: left;
+}
+
+
+
+#sep
+{
+	width: 100px;
+	height: 100px;
+}
+
+
+
+.container
+{
+	padding: 100px;
+}
+
+
+
