@@ -1,33 +1,39 @@
 
+
 .time
 {
 	width: 200px;
 	height: 200px;
 	border: 2px solid black;
-	padding: 80px 70px;
-}
-
-
-
-.block
-{
+	padding: 80px 100px;
 	float: left;
+	width: 25%;
+	margin-left: 15%;
+	margin-top: 50px;
+	background-color: rgb(142, 208, 228);
 }
 
 
-
-#sep
+#start
 {
-	width: 100px;
-	height: 100px;
+	margin: 50px 420px;
+	background-color: rgb(124, 180, 157);
 }
-
 
 
 .container
 {
 	padding: 100px;
 }
+
+
+h1
+{
+	margin-left: 330px;
+}
+
+
+
 
 
 
