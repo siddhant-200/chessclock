@@ -1,17 +1,26 @@
 var distance = 10;
+var startButton = document.getElementById("start");
+var resetButton = document.getElementById("reset");
 
 var time1 = document.getElementById("time1").textContent = distance;
 var time2 = document.getElementById("time2").textContent = distance;
-
-setInterval( function()
+var check = false;
+resetButton.addEventListener("click",function(){
+	location.reload();
+})
+startButton.addEventListener("click",function() {setInterval( function()
 {
-    if(document.getElementById("time1").textContent == 0)
+	if(document.getElementById("time1").textContent == 0)
     {
-        alert("player 1 lost");
+    	clearInterval();
+        alert("Player 1 Lost");
+        location.reload();
     }
     document.getElementById("time1").textContent--;
+
+    
 } 
-,1000 );
+,1000 );});
 
 
 
